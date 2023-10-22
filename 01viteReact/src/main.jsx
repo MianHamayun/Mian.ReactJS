@@ -1,10 +1,36 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
-import './index.css'
+import React from "react";
+import ReactDOM from "react-dom/client";
+import App from "./App.jsx";
 
-ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-)
+function MyApp() {
+  return (
+    <div>
+      <h1>Custom App | Chai</h1>
+    </div>
+  );
+}
+
+// const ReactElement = {
+//   type: "a",
+//   props: {
+//     href: "https://www.google.com",
+//     target: "_blank",
+//   },
+//   children: "click me to visit google",
+// };
+
+const anotherElement = (
+  <a href="https://google.com" target="_blank">
+    Visit Google
+  </a>
+);
+
+const anotherUser = "chai aur react"
+
+const reactElement = React.createElement("a", {
+    href: "https://google.com",
+    target: "_blank"
+},'click me to visit google ',anotherUser
+);
+
+ReactDOM.createRoot(document.getElementById("root")).render(reactElement);
