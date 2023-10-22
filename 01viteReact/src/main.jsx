@@ -20,17 +20,21 @@ function MyApp() {
 // };
 
 const anotherElement = (
-  <a href="https://google.com" target="_blank">
+  <a href="https://google.com" target="_blank" rel="noreferrer">
     Visit Google
   </a>
 );
 
-const anotherUser = "chai aur react"
+const anotherUser = "chai aur react";
 
-const reactElement = React.createElement("a", {
+const reactElement = React.createElement(
+  "a",
+  {
     href: "https://google.com",
-    target: "_blank"
-},'click me to visit google ',anotherUser
+    target: "_blank",
+  },
+  "click me to visit google ",
+  anotherUser
 );
 
 ReactDOM.createRoot(document.getElementById("root")).render(reactElement);
