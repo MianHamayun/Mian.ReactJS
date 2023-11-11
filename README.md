@@ -10,16 +10,6 @@ https://www.youtube.com/@chaiaurcode
 
 https://www.youtube.com/playlist?list=PLu71SKxNbfoDqgPchmvIsL4hTnJIrtige
 
-# Original Repo Link
+# Original Repo
 
 https://github.com/hiteshchoudhary/js-hindi-youtube
-
-# Original Author Profile
-
-https://github.com/hiteshchoudhary
-
-Please Follow!!!
-
-# Hitesh Chouhdhary Quotes
-
-Master Objects and Web Events.
