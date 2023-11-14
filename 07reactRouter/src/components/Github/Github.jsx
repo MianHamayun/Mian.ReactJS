@@ -14,9 +14,9 @@ function Github() {
   // }, []);
 
   return (
-    <div className="text-center m-4 bg-gray-600 text-white p-4 text-3xl">
+    <div className="text-center m-4 bg-gray-600 text-white p-4 text-3xl rounded-2xl">
       Github Followers: {data.followers}
-      <img className="text-center" src={data.avatar_url} alt="Git Picture" />
+      <img className="text-center rounded-full w-11 h-11 float-right" src={data.avatar_url} alt="Git Picture" />
     </div>
   );
 }
